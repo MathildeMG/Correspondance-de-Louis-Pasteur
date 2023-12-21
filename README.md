@@ -38,6 +38,30 @@ I have created a csv file containing metadata for the corpus. The LetterID corre
 | 1840_01_26| Parents| 26 janvier 1840  | 
 | 1840_06_08  |  Parents  | 08 juin 1840  | 
 
+### ***SpaCy output*** 
+The SpaCy output is also a csv file containing the processed and annotated letters. 
+Filname is the former LetterID. 
+| Filname    | SentTo | Date |
+| ---------- | --------- | ---------- | 
+| 1840_01_26| Parents| 26 janvier 1840  | 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
