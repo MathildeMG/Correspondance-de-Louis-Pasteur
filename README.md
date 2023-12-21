@@ -1,7 +1,7 @@
-# Louis Pasteur Correspondance
+# Louis Pasteur Correspondence
 
 ## 1. Description of the Corpus
-The corpus for this assignment is composed of twelve letters that Louis Pasteur[^1] sent to his family while he was a student at the Collège de Besançon in France from 1840 to 1842. The twelve letters are specifically from january 1840 to june 1841. They are only the letters sent out by Pasteur, thus this is a corpus of outgoing correspondance which gives a partial insight into the epistolary exanched Pasteur had with his family. Nonetheless, this gives a very original insight into Pasteurs life, in our case as a student, his worries, his achievments, and all the little daily things that could happen in someones life in the 19th century. 
+The corpus for this assignment is composed of twelve letters that Louis Pasteur[^1] sent to his family while he was a student at the Collège de Besançon in France from 1840 to 1842. The twelve letters are specifically from January 1840 to June 1841. They are only the letters sent out by Pasteur, thus this is a corpus of outgoing correspondance which gives a partial insight into the epistolary exchaned Pasteur had with his family. Nonetheless, this gives a very original insight into Pasteurs life, in our case as a student, his worries, his achievments, and all the little daily things that could happen in someones life in the 19th century. 
 
 ## 2. Target audience
 
@@ -17,7 +17,7 @@ On a linguistic level, analyzing such a corpus is a way to gain insight into lan
 
 
 ## 3. Text selection criteria
-The text selected are the first year and a half available in the book "***Correspondance de Pasteur, 1840-1895. 1 / réunie et annotée par Pasteur Vallery-Radot***". Obviously this is not the the best way to select a Corpus, I wanted to make it larger by adding all the correspondance for the year 1841 at least but I encountered so many unexpected difficulties that I didn't have the time. The four volumes of the book actally cover the years 1840 to 1895, this is mainly why I decided to work on these texts, they have a lot of potential because the further we go in the years, the more the correspondance is diversified, he corresponds with other scientifcs and friends etc, which I think could be interesting to investgate. If the corpus was larger and more diversified, Pasteur's hypothetical style difference could be analyzed, when he corresponds with his family and his scientific peers. 
+The texts selected are the first year and a half available in the book "***Correspondance de Pasteur, 1840-1895. 1 / réunie et annotée par Pasteur Vallery-Radot***". Obviously this is not the best way to select a Corpus, I wanted to make it larger by adding all the correspondance for the year 1841 at least but I encountered so many unexpected difficulties that I didn't have the time. The four volumes of the book actually cover the years 1840 to 1895, this is mainly why I decided to work on these texts, they have a lot of potential because the further we go in the years, the more the correspondance is diversified, he corresponds with other scientists and friends etc, which I think could be interesting to investigate. If the corpus was larger and more diversified, Pasteur's hypothetical style difference could be analyzed, when he corresponds with his family and his scientific peers. 
 
 ## 4. Collection Process and Processing
 The afore mentioned book (the four volumes actually) are available on BnF Gallica which is the gigtal library of the French National Library. The books are freely downloadable and have been OCRized. Different format can be downloaded, PDF, TXT, or JPEG. I have decided to download the PDF version because I had some issue with the TXT format available. Thus, after downloading the PDF version, I have exported said PDF into TXT file using Acrobat Reader. 
@@ -26,10 +26,10 @@ Once I had the complete book in txt file, I manually extracted the first twelve 
 
 ## 5. Data format and description
 ### ***Corpus*** 
-The corpus is composed of 12 txt files, each containing one letter. The files are named by the date mentionened by Louis Pasteur on the letters themselves: Year - Month - Day. 
+The corpus is composed of 12 txt files, each containing one letter. The files are named by the date mentioned by Louis Pasteur on the letters themselves: Year - Month - Day. 
 
 ### ***Metadata*** 
-I have created a csv file containing metadata for the corpus. The LetterID corresponds to the txt file name, SenTo indicates to whom Louis Pasteur has sent the letter. In the case of our corpus he only sent letters to his parents but as mentioned befor, if the corpus was arger, we would have other people in this column. The date refers again to the dates mentioned in the letters. 
+I have created a csv file containing metadata for the corpus. The LetterID corresponds to the txt file name, SenTo indicates to whom Louis Pasteur has sent the letter. In the case of our corpus he only sent letters to his parents but as mentioned befor, if the corpus was larger, we would have other people in this column. The date refers again to the dates mentioned in the letters. 
 
 
 | LetterID    | SentTo | Date |
