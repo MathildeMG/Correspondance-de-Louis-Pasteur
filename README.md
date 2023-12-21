@@ -1,6 +1,5 @@
 # Louis Pasteur Correspondence
-
-![Alt text]([image link](https://en.wikipedia.org/wiki/Pasteur%27s_portrait_by_Edelfelt#/media/File:Albert_Edelfelt_-_Louis_Pasteur_-_1885.jpg))
+![800px-Albert_Edelfelt_-_Louis_Pasteur_-_1885](https://github.com/MathildeMG/Louis-Pasteur_CD_A4/assets/150797037/912a3388-54b7-415c-bc3b-704dea7f01f3)
 
 ## 1. Description of the Corpus
 The corpus for this assignment is composed of twelve letters that Louis Pasteur[^1] sent to his family while he was a student at the Collège de Besançon in France from 1840 to 1842. The twelve letters are specifically from January 1840 to June 1841. They are only the letters sent out by Pasteur, thus this is a corpus of outgoing correspondance which gives a partial insight into the epistolary exchaned Pasteur had with his family. Nonetheless, this gives a very original insight into Pasteurs life, in our case as a student, his worries, his achievments, and all the little daily things that could happen in someones life in the 19th century. 
