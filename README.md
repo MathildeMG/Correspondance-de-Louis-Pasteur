@@ -1,7 +1,7 @@
 # Louis Pasteur Correspondance
 
 ## 1. Description of the Corpus
-The corpus for this assignment is composed of twelve letters that Louis Pasteur[^1] sent to his family while he was a student at the Collège de Besançon in France from 1840 to 1842. The welve letters are specifically from january 1840 to june 1841. They are only the letters sent out by Pasteur, thus this is a corpus of outgoing correspondance which gives a partial insight into the epistolary exanched Pasteur had with his family. Nonetheless, this gives a very original insight into Pasteurs life, in our case as a student, his worries, his achievments, and all the little daily things that could happen in someones life in the 19th century. 
+The corpus for this assignment is composed of twelve letters that Louis Pasteur[^1] sent to his family while he was a student at the Collège de Besançon in France from 1840 to 1842. The twelve letters are specifically from january 1840 to june 1841. They are only the letters sent out by Pasteur, thus this is a corpus of outgoing correspondance which gives a partial insight into the epistolary exanched Pasteur had with his family. Nonetheless, this gives a very original insight into Pasteurs life, in our case as a student, his worries, his achievments, and all the little daily things that could happen in someones life in the 19th century. 
 
 ## 2. Target audience
 
@@ -29,15 +29,14 @@ Once I had the complete book in txt file, I manually extracted the first twelve 
 The corpus is composed of 12 txt files, each containing one letter. The files are named by the date mentionened by Louis Pasteur on the letters themselves: Year - Month - Day. 
 
 ### ***Metadata*** 
-I have created a csv file containing metadata for the corpus. 
+I have created a csv file containing metadata for the corpus. The LetterID corresponds to the txt file name, SenTo indicates to whom Louis Pasteur has sent the letter. In the case of our corpus he only sent letters to his parents but as mentioned befor, if the corpus was arger, we would have other people in this column. The date refers again to the dates mentioned in the letters. 
 
 
-| LetterID    | SentTo | Date | Right align |
-| ---------- | --------- | ---------- | ---------- |
-| 1840_01_26| 9999999999 | 9999999999   | 9999999999  |
-| 999999999  | 999999999  | 999999999    | 999999999   |
-| 99999999   | 99999999   | 99999999     | 99999999    |
-| 9999999    | 9999999    | 9999999      | 9999999     |
+| LetterID    | SentTo | Date |
+| ---------- | --------- | ---------- | 
+| 1840_01_26| Parents| 26 janvier 1840  | 
+| 1840_06_08  |  Parents  | 08 juin 1840  | 
+
 
 
 
