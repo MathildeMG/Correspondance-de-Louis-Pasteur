@@ -40,28 +40,10 @@ I have created a csv file containing metadata for the corpus. The LetterID corre
 
 ### ***SpaCy output*** 
 The SpaCy output is also a csv file containing the processed and annotated letters. 
-Filname is the former LetterID. 
-| Filname    | SentTo | Date |
-| ---------- | --------- | ---------- | 
-| 1840_01_26| Parents| 26 janvier 1840  | 
+The first three field correspond to the metadata, then there is a column for the unprocessed texts, the created Doc objects, the tokenized text (segmentated strings into individual words). The Lemmas is the identification of the root of each words. The part of speech column refers to the POS-tagging
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Filname    | SentTo    | Date       | Text      |Doc       |Tokens     |Lemmas|Part of speech|Proper Nouns|Named Entities|
+| ---------- | --------- | ---------- | ----------|----------|----------|----------|----------|----------|----------|
 
 
 
