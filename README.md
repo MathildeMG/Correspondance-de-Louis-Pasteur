@@ -20,13 +20,26 @@ On a linguistic level, analyzing such a corpus is a way to gain insight into lan
 The text selected are the first year and a half available in the book "***Correspondance de Pasteur, 1840-1895. 1 / réunie et annotée par Pasteur Vallery-Radot***". Obviously this is not the the best way to select a Corpus, I wanted to make it larger by adding all the correspondance for the year 1841 at least but I encountered so many unexpected difficulties that I didn't have the time. The four volumes of the book actally cover the years 1840 to 1895, this is mainly why I decided to work on these texts, they have a lot of potential because the further we go in the years, the more the correspondance is diversified, he corresponds with other scientifcs and friends etc, which I think could be interesting to investgate. If the corpus was larger and more diversified, Pasteur's hypothetical style difference could be analyzed, when he corresponds with his family and his scientific peers. 
 
 ## 4. Collection Process and Processing
-The afore mentioned book (the four volumes actually) are available on BnF Gallica which is the gigtal library of the French National Library. The books are freely downloadable and have been OCRized. Different format can be downloaded, PDF, TXT, or JPEG. I have deided to download the PDF version because I had some issue with the TXT format available. Thus, after downloading the PDF version, I have exported said PDF into TXT file using Acrobat Reader. 
+The afore mentioned book (the four volumes actually) are available on BnF Gallica which is the gigtal library of the French National Library. The books are freely downloadable and have been OCRized. Different format can be downloaded, PDF, TXT, or JPEG. I have decided to download the PDF version because I had some issue with the TXT format available. Thus, after downloading the PDF version, I have exported said PDF into TXT file using Acrobat Reader. 
+
+Once I had the complete book in txt file, I manually extracted the first twelve letters into separate txt file in order to compose the actual corpus. I did have to check the letters and do soe cleaning and procesing since some words did not come out correctly or were separated in wierd places. 
+
+## 5. Data format and description
+### ***Corpus*** 
+The corpus is composed of 12 txt files, each containing one letter. The files are named by the date mentionened by Louis Pasteur on the letters themselves: Year - Month - Day. 
+
+### ***Metadata*** 
+I have created a csv file containing metadata for the corpus. 
 
 
-
+| LetterID    | SentTo | Date | Right align |
+| ---------- | --------- | ---------- | ---------- |
+| 1840_01_26| 9999999999 | 9999999999   | 9999999999  |
+| 999999999  | 999999999  | 999999999    | 999999999   |
+| 99999999   | 99999999   | 99999999     | 99999999    |
+| 9999999    | 9999999    | 9999999      | 9999999     |
 
 
 
 
 [^1]: Louis Pasteur was a French chimist and microbiologist who was born in 1822 and died in 1895. He is considered of one of teh founders of medical microbiology but he was also a chemist. You might have heard his name in the contexte of "pasteurization" which is a process that gets rid of bad microorganisms in food and beverage. Louis Pasteur also developped the vaccines agains anthrax and rabies. See: https://www.britannica.com/biography/Louis-Pasteur.
-[^2] 
