@@ -50,4 +50,4 @@ The first three field correspond to the metadata, then there is a column for the
 
 [^1]: Louis Pasteur was a French chimist and microbiologist who was born in 1822 and died in 1895. He is considered of one of teh founders of medical microbiology but he was also a chemist. You might have heard his name in the contexte of "pasteurization" which is a process that gets rid of bad microorganisms in food and beverage. Louis Pasteur also developped the vaccines agains anthrax and rabies. See: https://www.britannica.com/biography/Louis-Pasteur.
 
-[^2] See: https://gallica.bnf.fr/ark:/12148/bpt6k6473241n/f1.item
+[^2]: See: https://gallica.bnf.fr/ark:/12148/bpt6k6473241n/f1.item
