@@ -18,7 +18,7 @@ On a linguistic level, analyzing such a corpus is a way to gain insight into lan
 
 
 ## 3. Text selection criteria
-The texts selected are the first year and a half available in the book "***Correspondance de Pasteur, 1840-1895. 1 / réunie et annotée par Pasteur Vallery-Radot***". Obviously this is not the best way to select a Corpus, I wanted to make it larger by adding all the correspondance for the year 1841 at least but I encountered so many unexpected difficulties that I didn't have the time. The four volumes of the book actually cover the years 1840 to 1895, this is mainly why I decided to work on these texts, they have a lot of potential because the further we go in the years, the more the correspondance is diversified, he corresponds with other scientists and friends etc, which I think could be interesting to investigate. If the corpus was larger and more diversified, Pasteur's hypothetical style difference could be analyzed, when he corresponds with his family and his scientific peers. 
+The texts selected are the first year and a half available in the book "***Correspondance de Pasteur, 1840-1895. 1 / réunie et annotée par Pasteur Vallery-Radot***"[^2]. Obviously this is not the best way to select a Corpus, I wanted to make it larger by adding all the correspondance for the year 1841 at least but I encountered so many unexpected difficulties that I didn't have the time. The four volumes of the book actually cover the years 1840 to 1895, this is mainly why I decided to work on these texts, they have a lot of potential because the further we go in the years, the more the correspondance is diversified, he corresponds with other scientists and friends etc, which I think could be interesting to investigate. If the corpus was larger and more diversified, Pasteur's hypothetical style difference could be analyzed, when he corresponds with his family and his scientific peers. 
 
 ## 4. Collection Process and Processing
 The afore mentioned book (the four volumes actually) are available on BnF Gallica which is the gigtal library of the French National Library. The books are freely downloadable and have been OCRized. Different format can be downloaded, PDF, TXT, or JPEG. I have decided to download the PDF version because I had some issue with the TXT format available. Thus, after downloading the PDF version, I have exported said PDF into TXT file using Acrobat Reader. 
@@ -40,7 +40,7 @@ I have created a csv file containing metadata for the corpus. The LetterID corre
 
 ### ***SpaCy output*** 
 The SpaCy output is also a csv file containing the processed and annotated letters. 
-The first three field correspond to the metadata, then there is a column for the unprocessed texts, the created Doc objects, the tokenized text (segmentated strings into individual words). The Lemmas is the identification of the root of each words. The part of speech column refers to the POS-tagging
+The first three field correspond to the metadata, then there is a column for the unprocessed texts, the created Doc objects, the tokenized text (segmentated strings into individual words). The Lemmas is the identification of the root of each words. The part of speech column refers to the POS-tagging. The last two columns refer to the Name entity recognition annotation. 
 
 | Filname    | SentTo    | Date       | Text      |Doc       |Tokens     |Lemmas|Part of speech|Proper Nouns|Named Entities|
 | ---------- | --------- | ---------- | ----------|----------|----------|----------|----------|----------|----------|
@@ -49,3 +49,4 @@ The first three field correspond to the metadata, then there is a column for the
 
 
 [^1]: Louis Pasteur was a French chimist and microbiologist who was born in 1822 and died in 1895. He is considered of one of teh founders of medical microbiology but he was also a chemist. You might have heard his name in the contexte of "pasteurization" which is a process that gets rid of bad microorganisms in food and beverage. Louis Pasteur also developped the vaccines agains anthrax and rabies. See: https://www.britannica.com/biography/Louis-Pasteur.
+[^2] See: https://gallica.bnf.fr/ark:/12148/bpt6k6473241n/f1.item
