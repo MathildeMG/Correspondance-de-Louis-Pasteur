@@ -14,23 +14,23 @@ For Biographers, the correpondance gives insights into more a personal aspects o
 
 
 ### ***Diachronic Linguists*** 
-On a linguistic level, analyzing such a corpus is a way to gain insight into language evolution or communication style of Louis Pasteur for example. Furthermore if this corpus were to be studied in a comparativ aspect with another scientist of that time, a historical linguist coul do an analysis of and description of speech community (in this case the 19th century scientific community). Furthermore, cultural and social impact on language evolution for example. 
+On a linguistic level, analyzing such a corpus is a way to gain insight into language evolution or communication style of Louis Pasteur for example. Furthermore if this corpus were to be studied in a comparativ aspect with another scientist of that time, a historical linguist could do an analysis of- and description of- speech community (in this case the 19th century scientific community). Furthermore, cultural and social evolution and its impact on language can be explored for example. 
 
 
 ## 3. Text selection criteria
-The texts selected are the first year and a half available in the book "***Correspondance de Pasteur, 1840-1895. 1 / réunie et annotée par Pasteur Vallery-Radot***"[^2]. The four volumes of the book actually cover the years 1840 to 1895, this is mainly why I decided to work on these texts, they have a lot of potential because the further we go in the years, the more the correspondance is diversified. Pasteur corresponds with other scientists and friends etc, which could be interesting to investigate. With a larger and more diversified corpus, Pasteur's hypothetical style difference could be analyzed, when he corresponds with his family and his scientific peers. 
+The texts selected are the first year and a half available in the book "***Correspondance de Pasteur, 1840-1895. 1 / réunie et annotée par Pasteur Vallery-Radot***"[^2]. The four volumes of the book actually cover the years 1840 to 1895, this is mainly why I decided to work on these texts, they have a lot of potential because the further we go in the years, the more the correspondance is diversified. Pasteur corresponds with other scientists and friends, family, lover etc, which could be interesting to investigate. With a larger and more diversified corpus, one could get a very interesting overview of Pasteur's life and his manner of communcating with different people. 
 
 ## 4. Collection Process and Processing
 The afore mentioned book (the four volumes actually) are available on BnF Gallica which is the digtal library of the French National Library. The books are freely downloadable and have been OCRized. Different format can be downloaded, PDF, TXT, or JPEG. I have decided to download the PDF version and export them into TXT file using Acrobat Reader. 
 
-Once I had the complete book in TXT file, I manually extracted the first twelve letters into separate txt file in order to compose the actual corpus. I did have to check the letters and do some cleaning and procesing since some words did not come out correctly du to special characters or were separated in wierd places. 
+Once I had the complete book in TXT file, I manually extracted the first twelve letters into separate TXT files in order to compose the actual corpus. I did have to check the letters and do some cleaning and procesing since some words did not come out correctly due to special characters or were separated in wierd places. 
 
 ## 5. Data format and description
 ### ***Corpus*** 
 The corpus is composed of 12 TXT files, each containing one letter. The files are named by the date mentioned by Louis Pasteur on the letters themselves: Year - Month - Day. 
 
 ### ***Metadata*** 
-I have created a csv file containing metadata for the corpus. The LetterID corresponds to the txt file name, SenTo indicates to whom Louis Pasteur has sent the letter. In the case of our corpus he only sent letters to his parents but as mentioned befor, if the corpus was larger, we would have other people in this column. The date refers again to the dates mentioned in the letters. 
+I have created a CSV file containing metadata for the corpus. The LetterID corresponds to the TXT file name (the date), SenTo indicates to whom Louis Pasteur has sent the letter. In the case of our corpus he only sent letters to his parents but as mentioned before, if the corpus was larger, we would have other people in this column. The date refers again to the dates mentioned in the letters. 
 
 
 | LetterID    | SentTo | Date |
@@ -40,9 +40,9 @@ I have created a csv file containing metadata for the corpus. The LetterID corre
 
 ### ***SpaCy output*** 
 The SpaCy output is also a csv file containing the processed and annotated letters. 
-The first three field correspond to the metadata, then there is a column for the unprocessed texts, the created Doc objects, the tokenized text (segmentated strings into individual words). The Lemmas is the identification of the root of each words. The part of speech column refers to the POS-tagging. The last two columns refer to the Name entity recognition annotation. 
+The first three field correspond to the metadata, then there is a column for the unprocessed texts then there are the tokenized texts (segmentated strings into individual words). The Lemmas is the identification of the root of each words. The part of speech column refers to the POS-tagging and the Proper Nouns are the actual words from the letters that correspond to the POS tagging. The same goes for the two last columns but applied to Name Entity Recognition; the second to last one contains the tags, whereas the last one contains the actual words that refer to them. 
 
-| Filname    | SentTo    | Date       | Text      |Doc       |Tokens     |Lemmas|Part of speech|Proper Nouns|Named Entities|
+| Filname    | SentTo    | Date       | Text      |Tokens     |Lemmas|Part of speech|Proper Nouns|Named Entities|NE Words|
 | ---------- | --------- | ---------- | ----------|----------|----------|----------|----------|----------|----------|
 
 
